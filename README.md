@@ -9,6 +9,8 @@ You can install this package by cloning the repository and using pip.
 ```bash
 git clone https://github.com/jabraham17/chpl-perf-triage.git
 cd chpl-perf-triage
+python3 -m venv venv
+source venv/bin/activate
 python3 -m pip install .
 ```
 
